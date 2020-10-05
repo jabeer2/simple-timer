@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Button buttonGo;
     Boolean CountisActive = false;
     CountDownTimer countDownTimer;
-
+    MediaPlayer mediaPlayer;
     public void resetTimer(){
         TextTime.setText("0:30");
         seekBar.setProgress(30);
@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         seekBar.setEnabled(true);
         CountisActive = false;
         buttonGo.setText("Go");
+        mediaPlayer.stop();
+
     }
     public void updateTime(int secLeft){
         int min = secLeft/60;
@@ -57,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onFinish() {
                     TextTime.setText("0:00");
-                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sirin);
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sirin);
                     mediaPlayer.start();
                     Log.i("finied", "yup");
                 }
