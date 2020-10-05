@@ -3,7 +3,7 @@ a simple timer app in java and xml
 
 ## app at start
 
-![start](/img/app1.png = 250x250))
+<img src="https://user-images.githubusercontent.com/img/app1.png" width="200" height="300" />
 
 ## app at stop
 
