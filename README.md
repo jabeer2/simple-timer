@@ -7,8 +7,9 @@ a simple timer app in java and xml
 
 ## app at stop
 
-![stop](/img/app2.png)
+<img src="https://github.com/jabeer2/simple-timer/blob/master/img/app2.png" width="400" height="600" />
 
 ## app at finish state
 
-![finish](/img/app3.png)
+<img src="https://github.com/jabeer2/simple-timer/blob/master/img/app3.png" width="400" height="600" />
+
